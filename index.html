@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+    <title>Encriptador de Texto</title>
+
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="imagenes/logo.png" alt="logo" class="logo">
+    </header>
+    <main class="cuerpo">
+        <div class="encriptar">    
+            <textarea name="" id="" cols="50" rows="10" placeholder="Ingresa el mensaje" class="textoA"></textarea>
+            <div class="botones">
+                <label for="" class="texto1"> <img src="imagenes/signo.png" alt="Signo de admiración" class="signo"> Solo letras minúsulas y sin acento, por favor!!</label>
+                <input type="submit" value="Encriptar" class="btnEncriptar" onclick="btnEncriptar()">
+                <input type="submit" value="Desencriptar" class="btnDesencriptar" onclick="btnDesencriptar()">
+            </div>
+            
+        </div>
+        <div class="desencriptar">
+            <textarea name="" id="" cols="30" rows="15" class="mensaje"></textarea>
+            <label id="label0" class="texto2"> Ningún mensaje fue encontrado</label>
+            <label id="label1" class="texto3">Ingresa el texto que desea encriptar o desencriptar</label>
+            <input type="submit" value="Copiar" class="copiar" onclick="copiarTexto()">
+        </div>
+    </main>
+    <footer>
+        <label class="footer">Stefania Vega || Agosto de 2022 || ONE - Alura</label>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

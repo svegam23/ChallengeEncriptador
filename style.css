@@ -1,0 +1,229 @@
+body{
+    background-image: url(imagenes/fondo4.jpg);
+    background-repeat: no-repeat;
+    background-position: 0;
+}
+
+.logo{
+    padding: 20px 20px;
+    position: absolute;
+    margin: 10px 0 0 30px;
+}
+
+main{
+    width: auto;
+    position: relative;
+    display: flex;
+}
+
+.encriptar{
+    width: 50%;
+    margin: 0 0 0 40px;
+    /*display: inline-block;*/
+}
+
+input{
+    display: block;
+}
+
+.textoA{
+    padding: 15px;
+    margin: 100px 20px 80px 40px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #0A3871;
+    background:transparent;
+    border: none;
+    border-color: #0A3871;
+    resize: none;
+}
+
+
+.signo{
+    width: 10px;
+    height: 10px;
+}
+
+.texto1{
+    padding: 10px 10px;
+    margin: 10px 10px;
+    display: block;
+    font-size: 15px;
+}
+
+.btnEncriptar, .btnDesencriptar{
+    width: 160px;
+    padding: 5px 0;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid #0A3871;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btnEncriptar:hover{
+    opacity: 0.7;
+}
+
+.btnDesencriptar:hover{
+    opacity: 0.7;
+}
+
+
+.btnEncriptar{
+    color: #0A3871;
+    background: #D8DFE8;
+}
+
+.botones{
+    margin: 40px
+}
+
+.desencriptar{
+    width: 40%;
+    height: 550px;
+    margin-top: 100px;
+    /*display: inline-block;*/
+}
+
+.muñeco{
+    width: 150px;
+    height: 150px;
+    padding: 60px 10px;
+
+}
+
+.texto2{
+    padding: 10px 10px;
+    margin: 10px 50px;
+    display: block;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.texto3{
+    padding: 10px 10px;
+    margin: 10px 15px;
+    display: block;
+    font-size: 20px;
+}
+
+.mensaje{
+    padding: 15px ;
+    margin: 0 70px 80px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #0A3871;
+    background-image: url("imagenes/Anya.webp");
+    background-repeat: no-repeat;
+    background-position: 18px;
+    background-size: 300px;
+    border-radius: 15px;
+    border-color: #0A3871; 
+    resize: none;
+}
+
+/*Copiar se ve cuando se realiza la encriptación*/
+.copiar{
+    width: 160px;
+    margin: 10px 20px 0 150px;
+    padding: 5px 0;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid #0A3871;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.copiar:hover{
+    opacity: 0.7;
+    transition: buzz;
+}
+
+footer{
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+    .encriptar{
+        width: 350px;
+        margin:20px 5px 10px 30px ;
+        display: inline-block;
+    }
+    .desencriptar{
+        width: 350px;
+        margin: 20px 0 10px 0;
+        display: inline-block;
+    }
+    .textoA{
+        width: 300px;
+        margin: 100px 20px 50px 0;
+    }
+    .mensaje{
+        margin: 100px 20px 50px 0;
+    }
+    .btnEncriptar{
+        margin: 0 30px 10px;
+    }
+    .btnDesencriptar{
+        margin-left: 30px;
+    }
+
+
+}
+
+@media screen and (max-width: 480px) {
+    
+    .logo{
+        margin: 0 0 0 30px;
+    }
+
+    .encriptar, .desencriptar{
+        height: 350px;
+        padding: 45px 5px;
+        margin: 50px 10px 60px;
+        
+    }
+
+    .encriptar{
+        width: 340px;
+        display: block; 
+    }
+
+    .desecnriptar{
+        width: 340px;
+        display: block; 
+    }
+
+    .textoA{
+        margin: 50px 40px;
+    }
+
+    .botones{
+        width: 330px;
+        margin: 0;
+    }
+
+    .btnEncriptar, .btnDesencriptar{
+        width: 160px;
+        display: inline-block;
+    }
+
+    .mensaje{
+        padding: 45px 15px;
+        margin: 5px 15px;
+        background: transparent;
+        border: 1px solid black;
+    }
+}
