@@ -153,9 +153,21 @@ footer{
     margin-bottom: 10px;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1200px){
+    .textoA{
+        width: 400px;
+    }
+    .mensaje{
+        margin: 0;
+    }
+    .texto2, .texto3{
+        text-align: center;
+    }
 
+}
 
 @media screen and (min-width: 480px) and (max-width: 768px) {
+    
     .encriptar{
         width: 350px;
         margin:20px 5px 10px 30px ;
@@ -189,25 +201,38 @@ footer{
         margin: 0 0 0 30px;
     }
 
-    .encriptar, .desencriptar{
-        height: 350px;
-        padding: 45px 5px;
-        margin: 50px 10px 60px;
-        
+    main{
+        display: block;
     }
 
     .encriptar{
         width: 340px;
         display: block; 
+        height: 350px;
+        padding: 45px 5px;
+        margin: 30px 10px 30px;
     }
 
-    .desecnriptar{
+    .desencriptar{
         width: 340px;
         display: block; 
+        height: 350px;
+        padding: 45px 5px;
+        margin: 30px 10px 60px;
     }
 
     .textoA{
-        margin: 50px 40px;
+        margin: 10px 10px 0 10px;
+        width: 300px;
+        height: 300px;
+    }
+
+    .texto1{
+        margin-top: 0;
+    }
+    .texto2, .texto3{
+        text-align: center;
+        margin-bottom: 0;
     }
 
     .botones{
@@ -221,7 +246,7 @@ footer{
     }
 
     .mensaje{
-        padding: 45px 15px;
+        padding: 15px;
         margin: 5px 15px;
         background: transparent;
         border: 1px solid black;
